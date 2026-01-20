@@ -2,9 +2,9 @@ name: Teste Microservices
 
 on:
   push:
-    branches: [main]
+    branches: [aula-01]
   pull_request:
-    branches: [main]
+    branches: [aula-01]
 
 jobs:
   test-auth-service:
